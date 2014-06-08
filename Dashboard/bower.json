@@ -1,0 +1,21 @@
+{
+  "name": "Dashboard Starter UI, by Keen IO",
+  "version": "0.0.1",
+  "authors": [
+    "Dustin Larimer <dustin@keen.io>"
+  ],
+  "description": "Starter UI for building dashboards with Keen IO",
+  "license": "MIT",
+  "homepage": "https://keen.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
