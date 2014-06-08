@@ -123,7 +123,7 @@ Keen.ready(function() {
 
     client.run(today_history, function (response) {
         Keen.utils.each(response.result, function (record, index) {
-            record.value *= 6.67e-2;
+            record.value = Math.round(record.value*6.67e-2);
         });
 
         var req_today_history = new Keen.Visualization(response, document.getElementById("chart-02"), {
