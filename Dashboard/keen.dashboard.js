@@ -93,8 +93,9 @@ Keen.ready(function() {
                     height: "75%",
                     left: "10%",
                     top: "5%",
-                    width: "85%"
+                    width: "85%",
                 },
+                legend: {position: "none"},
                 vAxis: {
                     format: "##.#",
                     title: "mph"
@@ -136,9 +137,10 @@ Keen.ready(function() {
                     height: "75%",
                     left: "8%",
                     top: "5%",
-                    width: "85%"
+                    width: "90%"
                 },
-                vAxis: {
+            legend: {position: "none"},
+            vAxis: {
                     format: "###",
                     title: "steps/min"
                 },
@@ -174,8 +176,9 @@ Keen.ready(function() {
                 height: "75%",
                 left: "7%",
                 top: "5%",
-                width: "85%"
+                width: "90%"
             },
+            legend: {position: "none"},
             hAxis: {
                 gridlines: {
                     count: 12
